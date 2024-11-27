@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+:root{
+    --gery-color:#333;
+    --black-color:black;
+    --blue-color:#007bff;
+
+    
+}
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color:var(--gery-color);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color:var(--blue-color);
+}
+
+/* Social Media Icons */
+.navbar .fab {
+    font-size: 18px;
+    color:var(--gery-color);
+    transition: color 0.3s ease;
+}
+
+.navbar .fab:hover {
+    color:var(--blue-color);
+}
+/* section-one */
+.logo-img {
+    width: 200px; 
+    height: auto; 
+    
+}
+
+.vl {
+    border-left: 1px solid var(--gery-color);
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top:180px;
+  }
+  /* Ensure that the images are responsive */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* Position for the overlay */
