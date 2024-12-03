@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #0d42ff;
+    --white-color: #fff;
+    --black-color: #000;
+    --secondary-color: #001973;
+    --dark-color: #0E1D34;
+}
+
+
+/* ========================= CARD SECTION _ 2 =========================== */
+.card-icon a {
+  font-size: 3.5rem;
+}
+
+.card-info .card-content .card-content-title{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.card-info .card-content .card-content-achor{
+  color: var(--black-color);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.card-col {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-col:hover .card-content-title, 
+.card-col:hover .card-content-achor {
+  color: var(--primary-color);
+  transition: color 0.3s ease-in-out;
+  opacity: 1;
+}
+
