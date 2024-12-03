@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #0d42ff;
+    --white-color: #fff;
+    --black-color: #000;
+    --secondary-color: #001973;
+    --dark-color: #0E1D34;
+}
+
+/* Navbar Styles */
+.my-navbar {
+    background-color: var(--dark-color);
+}
+
+.quote-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-btn:hover {
+    background-color: #003fca;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    padding: 60px 0 60px;
+    background-color: var(--dark-color) !important;
+    color: var(--white-color);
+    scroll-margin-top: 100px;
+    overflow: clip;
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .hero-section .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.7;
+  }
+  
+  .hero-section .stats-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .stats-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--default-color);
+  }
+  
+  .hero-section .form-search .form-control {
+    border-radius: 4px;
+  }
+  
+  .hero-section .form-search .btn-sreach {
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 10px 15px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+  .stat-card {
+    text-align: center;
+    padding: 1rem;
+}
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.stat-label {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.stat-underline {
+    width: 2rem;
+    height: 3px;
+    background-color: #007bff;
+    margin: 0.5rem auto;
+}
